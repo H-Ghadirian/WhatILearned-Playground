@@ -4,12 +4,12 @@ import Foundation
 import SwiftUI
 import PlaygroundSupport
 
-let view = ContentView()
+let view = ButtonAnimationContentView() //ContentView()
 //let hostingVC = UIHostingController(rootView: view)
 //PlaygroundPage.current.liveView = hostingVC
 PlaygroundPage.current.setLiveView(
     view
-        .frame(width: 500.0, height: 500.0)
+        .frame(width: 500.0, height: 1000.0)
     //provide a width and hight of your choice
 )
 //: [Next](@next)
@@ -71,3 +71,27 @@ struct ContentView: View {
     }
 }
 
+struct ButtonAnimationContentView: View {
+    @State private var scale = 1.0
+    @State private var angle = 0.0
+    @State private var borderThickness = 1.0
+
+//    var body: some View {
+//        Button("Press here") {
+//            scale += 1
+//        }
+//        .scaleEffect(scale)
+//        .animation(.linear(duration: 1), value: scale)
+//    }
+
+    var body: some View {
+        Button("Press here") {
+            angle += 45
+            borderThickness += 1
+        }
+        .padding()
+        .border(.red, width: borderThickness)
+        .rotationEffect(.degrees(angle))
+        .animation(.easeIn, value: angle)
+    }
+}

@@ -75,17 +75,26 @@ struct ButtonAnimationContentView: View {
     @State private var scale = 1.0
     @State private var angle = 0.0
     @State private var borderThickness = 1.0
-
-//    var body: some View {
-//        Button("Press here") {
-//            scale += 1
-//        }
-//        .scaleEffect(scale)
-//        .animation(.linear(duration: 1), value: scale)
-//    }
+    @State private var opacity = 1.0
 
     var body: some View {
-        Button("Press here") {
+        VStack {
+            buttonWithScaleAnimation
+            buttonWithRotationAnimation
+            buttonWithOpacityAnimation
+        }
+    }
+
+    var buttonWithScaleAnimation: some View {
+        Button("Scale") {
+            scale += 1
+        }
+        .scaleEffect(scale)
+        .animation(.linear(duration: 1), value: scale)
+    }
+
+    var buttonWithRotationAnimation: some View {
+        Button("Rotation") {
             angle += 45
             borderThickness += 1
         }
@@ -93,5 +102,15 @@ struct ButtonAnimationContentView: View {
         .border(.red, width: borderThickness)
         .rotationEffect(.degrees(angle))
         .animation(.easeIn, value: angle)
+    }
+
+    var buttonWithOpacityAnimation: some View {
+        Button("Opacity") {
+            withAnimation {
+                opacity -= 0.2
+            }
+        }
+        .padding()
+        .opacity(opacity)
     }
 }

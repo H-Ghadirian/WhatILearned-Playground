@@ -6,5 +6,6 @@
         <page name='DateFormatter+iso8601Full'/>
         <page name='Pf001 - functions - operator'/>
         <page name='Pf002 - functions - side effects'/>
+        <page name='Default Value in Dictionary'/>
     </pages>
 </playground>

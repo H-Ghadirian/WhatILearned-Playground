@@ -2,13 +2,6 @@
 
 import Foundation
 
-struct ToDoResponseModel: Codable {
-    var userId: Int
-    var id: Int?
-    var title: String
-    var completed: Bool
-}
-
 let url = URL(string: "https://jsonplaceholder.typicode.com/todos")
 guard let requestUrl = url else { fatalError() }
 
@@ -19,7 +12,7 @@ request.httpMethod = "POST"
 request.setValue("application/json", forHTTPHeaderField: "Accept")
 request.setValue("application/json", forHTTPHeaderField: "Content-Type")
 
-let newTodoItem = ToDoResponseModel(userId: 400, title: "Urgent task 2", completed: false)
+let newTodoItem = ToDoHttpBodyRequestModel(userId: 400, title: "Urgent task 2", completed: false)
 let jsonData = try JSONEncoder().encode(newTodoItem)
 
 request.httpBody = jsonData
@@ -36,12 +29,25 @@ let task = URLSession.shared.dataTask(with: request) { (data, response, error) i
         let todoItemModel = try JSONDecoder().decode(ToDoResponseModel.self, from: data)
         print("Response data:\n \(todoItemModel)")
         print("todoItemModel Title: \(todoItemModel.title)")
-        print("todoItemModel id: \(todoItemModel.id ?? 0)")
+        print("todoItemModel id: \(todoItemModel.id)")
     }catch let jsonErr{
         print(jsonErr)
     }
 }
 
 task.resume()
+
+struct ToDoHttpBodyRequestModel: Encodable {
+    var userId: Int
+    var title: String
+    var completed: Bool
+}
+
+struct ToDoResponseModel: Decodable {
+    var userId: Int
+    var id: Int
+    var title: String
+    var completed: Bool
+}
 
 //: [Next](@next)

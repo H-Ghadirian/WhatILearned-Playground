@@ -10,5 +10,6 @@
         <page name='ProgressView'/>
         <page name='JSONSerialization'/>
         <page name='Post request'/>
+        <page name='String+isRTL'/>
     </pages>
 </playground>

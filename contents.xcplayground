@@ -8,5 +8,7 @@
         <page name='Pf002 - functions - side effects'/>
         <page name='Default Value in Dictionary'/>
         <page name='ProgressView'/>
+        <page name='JSONSerialization'/>
+        <page name='Post request'/>
     </pages>
 </playground>

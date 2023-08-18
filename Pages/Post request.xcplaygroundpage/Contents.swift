@@ -24,10 +24,12 @@ let task = URLSession.shared.dataTask(with: request) { (data, response, error) i
         return
     }
     guard let data = data else {return}
+    print("Data:\n")
+    print(String(decoding: data, as: UTF8.self))
 
     do{
         let todoItemModel = try JSONDecoder().decode(ToDoResponseModel.self, from: data)
-        print("Response data:\n \(todoItemModel)")
+        print("\nResponse data:\n \(todoItemModel)")
         print("todoItemModel Title: \(todoItemModel.title)")
         print("todoItemModel id: \(todoItemModel.id)")
     }catch let jsonErr{

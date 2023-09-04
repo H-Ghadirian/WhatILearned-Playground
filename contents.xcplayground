@@ -11,5 +11,7 @@
         <page name='JSONSerialization'/>
         <page name='Post request'/>
         <page name='String+isRTL'/>
+        <page name='ConvertStringInt'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>

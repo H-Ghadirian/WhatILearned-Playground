@@ -12,6 +12,7 @@
         <page name='Post request'/>
         <page name='String+isRTL'/>
         <page name='ConvertStringInt'/>
-        <page name='Untitled Page'/>
+        <page name='IsThereParameterLimit for enums'/>
+        <page name='Property Wrappers'/>
     </pages>
 </playground>

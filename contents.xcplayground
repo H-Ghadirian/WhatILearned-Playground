@@ -15,5 +15,9 @@
         <page name='IsThereParameterLimit for enums'/>
         <page name='Property Wrappers'/>
         <page name='Generic Function'/>
+        <page name='Generic Class'/>
+        <page name='Generic Enum'/>
+        <page name='Generic with constraints 1'/>
+        <page name='Generic with constraints 2'/>
     </pages>
 </playground>

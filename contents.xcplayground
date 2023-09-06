@@ -14,5 +14,6 @@
         <page name='ConvertStringInt'/>
         <page name='IsThereParameterLimit for enums'/>
         <page name='Property Wrappers'/>
+        <page name='Generic Function'/>
     </pages>
 </playground>

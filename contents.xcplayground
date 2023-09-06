@@ -19,5 +19,7 @@
         <page name='Generic Enum'/>
         <page name='Generic with constraints 1'/>
         <page name='Generic with constraints 2'/>
+        <page name='Protocol as associated type 1'/>
+        <page name='Protocol as associated type 2'/>
     </pages>
 </playground>

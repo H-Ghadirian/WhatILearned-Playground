@@ -21,5 +21,6 @@
         <page name='Generic with constraints 2'/>
         <page name='Protocol as associated type 1'/>
         <page name='Protocol as associated type 2'/>
+        <page name='ViewBuilder'/>
     </pages>
 </playground>

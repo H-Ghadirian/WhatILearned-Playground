@@ -22,5 +22,6 @@
         <page name='Protocol as associated type 1'/>
         <page name='Protocol as associated type 2'/>
         <page name='ViewBuilder'/>
+        <page name='Typealias'/>
     </pages>
 </playground>

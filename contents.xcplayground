@@ -24,5 +24,6 @@
         <page name='ViewBuilder'/>
         <page name='Typealias'/>
         <page name='UIViewRepresentable'/>
+        <page name='await'/>
     </pages>
 </playground>

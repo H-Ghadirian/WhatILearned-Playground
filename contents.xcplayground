@@ -25,5 +25,6 @@
         <page name='Typealias'/>
         <page name='UIViewRepresentable'/>
         <page name='await'/>
+        <page name='continuation'/>
     </pages>
 </playground>

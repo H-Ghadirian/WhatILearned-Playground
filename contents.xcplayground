@@ -23,5 +23,6 @@
         <page name='Protocol as associated type 2'/>
         <page name='ViewBuilder'/>
         <page name='Typealias'/>
+        <page name='UIViewRepresentable'/>
     </pages>
 </playground>

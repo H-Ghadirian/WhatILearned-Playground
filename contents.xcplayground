@@ -26,5 +26,6 @@
         <page name='UIViewRepresentable'/>
         <page name='await'/>
         <page name='continuation'/>
+        <page name='segmented progressbar'/>
     </pages>
 </playground>

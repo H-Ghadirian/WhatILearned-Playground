@@ -32,4 +32,30 @@ From Apple :
 1. [Shortcuts](https://github.com/H-Ghadirian/What-I-Learned/blob/main/Shortcuts.md)
  */
 
+// read swift version in terminal by calling:
+// swift -version
+#if swift(>=5.9)
+print("Hello, Swift 5.9")
+#elseif swift(>=5.8.1)
+print("Hello, Swift 5.8.1")
+#elseif swift(>=5.8)
+print("Hello, Swift 5.8")
+#elseif swift(>=5.7)
+print("Hello, Swift 5.7")
+#elseif swift(>=5.2)
+print("Hello, Swift 5.2")
+#elseif swift(>=5.1)
+print("Hello, Swift 5.1")
+#elseif swift(>=5.0)
+print("Hello, Swift 5.0")
+#elseif swift(>=4.1)
+print("Hello, Swift 4.1")
+#elseif swift(>=4.0)
+print("Hello, Swift 4.0")
+#elseif swift(>=3.0)
+print("Hello, Swift 3.x")
+#else
+print("Hello, Swift 2.2")
+#endif
+
 //: [Next](@next)

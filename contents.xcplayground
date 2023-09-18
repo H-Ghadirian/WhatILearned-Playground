@@ -27,5 +27,7 @@
         <page name='await'/>
         <page name='continuation'/>
         <page name='segmented progressbar'/>
+        <page name='Actors'/>
+        <page name='Dictionary+data'/>
     </pages>
 </playground>

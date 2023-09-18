@@ -30,5 +30,6 @@
         <page name='Actors'/>
         <page name='Dictionary+data'/>
         <page name='foreach'/>
+        <page name='passing a function of a class'/>
     </pages>
 </playground>

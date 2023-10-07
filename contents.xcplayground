@@ -34,5 +34,6 @@
         <page name='passing a function of a class'/>
         <page name='modern swaping'/>
         <page name='map'/>
+        <page name='dic'/>
     </pages>
 </playground>

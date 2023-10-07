@@ -30,7 +30,9 @@
         <page name='Actors'/>
         <page name='Dictionary+data'/>
         <page name='foreach'/>
-        <page name='String+jsonDic'/>
+        <page name='String+jsonDictionary'/>
         <page name='passing a function of a class'/>
+        <page name='modern swaping'/>
+        <page name='map'/>
     </pages>
 </playground>

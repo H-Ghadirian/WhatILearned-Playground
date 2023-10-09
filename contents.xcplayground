@@ -36,5 +36,6 @@
         <page name='map'/>
         <page name='dic'/>
         <page name='some and any'/>
+        <page name='array'/>
     </pages>
 </playground>

@@ -37,5 +37,6 @@
         <page name='dic'/>
         <page name='some and any'/>
         <page name='array'/>
+        <page name='userdefaults'/>
     </pages>
 </playground>

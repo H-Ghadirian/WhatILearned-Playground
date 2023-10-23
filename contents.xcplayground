@@ -38,5 +38,6 @@
         <page name='some and any'/>
         <page name='array'/>
         <page name='userdefaults'/>
+        <page name='Range'/>
     </pages>
 </playground>

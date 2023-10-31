@@ -40,5 +40,6 @@
         <page name='Range'/>
         <page name='map flatMap compactMap'/>
         <page name='DispatchWorkItem'/>
+        <page name='ArrayIterator'/>
     </pages>
 </playground>

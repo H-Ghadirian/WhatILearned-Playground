@@ -3,6 +3,7 @@ import Foundation
 public class ApiRequestHandler {
     public init() {
     }
+
     public func post() {
         let url = URL(string: "https://jsonplaceholder.typicode.com/todos")
         guard let requestUrl = url else { fatalError() }
@@ -45,6 +46,7 @@ public class ApiRequestHandler {
 
         task.resume()
     }
+
     public func getImageData() {
         let url = URL(string: "https://bit.ly/2LMtByx")!
 

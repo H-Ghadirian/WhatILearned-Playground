@@ -2,12 +2,6 @@
 
 import Foundation
 
-// call basic form
-//let handler = ApiRequestHandler()
-//handler.post()
-//handler.getImageData()
-
-// call advance form
 Task.init {
     do {
         var authorityClient = AuthorityClient()

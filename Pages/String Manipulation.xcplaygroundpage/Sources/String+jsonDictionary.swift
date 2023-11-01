@@ -1,6 +1,5 @@
-//: [Previous](@previous)
-
 import Foundation
+
 extension String {
     var jsonDictionary: [String: Any]? {
         return (
@@ -8,11 +7,3 @@ extension String {
         ) as? [String: Any]
     }
 }
-
-let dic = """
-{
-"name":"hamed"
-}
-""".jsonDictionary
-print(dic)
-//: [Next](@next)

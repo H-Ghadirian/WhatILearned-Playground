@@ -4,13 +4,13 @@ import Foundation
 import SwiftUI
 import PlaygroundSupport
 
-let view = ContentView()
+let view = CompareProgressViews()
 PlaygroundPage.current.setLiveView(
     view
         .frame(width: 500.0, height: 1000.0)
 )
 
-struct ContentView: View {
+struct CompareProgressViews: View {
     var body: some View {
         VStack(spacing: 10) {
             Text("mini")

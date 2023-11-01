@@ -24,7 +24,6 @@
         <page name='ViewBuilder'/>
         <page name='Typealias'/>
         <page name='UIViewRepresentable'/>
-        <page name='await'/>
         <page name='continuation'/>
         <page name='segmented progressbar'/>
         <page name='Actors'/>

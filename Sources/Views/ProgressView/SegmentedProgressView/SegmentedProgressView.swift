@@ -1,17 +1,21 @@
-//: [Previous](@previous)
-
+import Foundation
 import SwiftUI
 import PlaygroundSupport
 
-struct SegmentedProgressView: View {
+public struct SegmentedProgressView: View {
     var value: Int
     var maximum: Int = 7
     var height: CGFloat = 10
     var spacing: CGFloat = 2
     var selectedColor: Color = .accentColor
     var unselectedColor: Color = Color.secondary.opacity(0.3)
-    
-    var body: some View {
+
+    public init(value: Int, maximum: Int) {
+        self.value = value
+        self.maximum = maximum
+    }
+
+    public var body: some View {
         HStack(spacing: spacing) {
             ForEach(0 ..< maximum) { index in
                 Rectangle()
@@ -25,11 +29,13 @@ struct SegmentedProgressView: View {
     }
 }
 
-struct ExampleOfProgress: View {
+public struct ExampleOfSegmentedProgressView: View {
     @State var value = 0
     var maximum = 10
-    
-    var body: some View {
+
+    public init() {}
+
+    public var body: some View {
         VStack(alignment: .leading) {
             Text("SegmentedProgressView example")
                 .font(.headline)
@@ -49,6 +55,3 @@ struct ExampleOfProgress: View {
         .padding()
     }
 }
-
-PlaygroundPage.current.liveView = UIHostingController(rootView: ExampleOfProgress())
-//: [Next](@next)

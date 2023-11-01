@@ -15,6 +15,8 @@ PlaygroundPage.current.setLiveView(
         secondView
             .frame(width: 500.0, height: 100.0)
     }
-    //provide a width and hight of your choice
 )
+
+//PlaygroundPage.current.liveView = UIHostingController(rootView: ExampleOfSegmentedProgressView())
+
 //: [Next](@next)

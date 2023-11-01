@@ -10,7 +10,7 @@
         <page name='ProgressView'/>
         <page name='JSONSerialization'/>
         <page name='Get Post request'/>
-        <page name='String+isRTL'/>
+        <page name='String Manipulation'/>
         <page name='ConvertStringInt'/>
         <page name='IsThereParameterLimit for enums'/>
         <page name='Property Wrappers'/>
@@ -29,7 +29,6 @@
         <page name='Actors'/>
         <page name='Dictionary+data'/>
         <page name='foreach'/>
-        <page name='String+jsonDictionary'/>
         <page name='passing a function of a class'/>
         <page name='modern swaping'/>
         <page name='dic'/>

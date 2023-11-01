@@ -4,29 +4,17 @@ import Foundation
 import SwiftUI
 import PlaygroundSupport
 
-let view = CompareProgressViews()
+let compareProgressViews = CompareProgressViews()
+// https://www.swiftbysundell.com/articles/avoiding-anyview-in-swiftui/
+
+let secondView = StateBindingView()
 PlaygroundPage.current.setLiveView(
-    view
-        .frame(width: 500.0, height: 1000.0)
-)
-
-struct CompareProgressViews: View {
-    var body: some View {
-        VStack(spacing: 10) {
-            Text("mini")
-            ProgressView()
-                .controlSize(.mini)
-            Text("small")
-            ProgressView()
-                .controlSize(.small)
-            Text("regular")
-            ProgressView()
-                .controlSize(.regular)
-            Text("large")
-            ProgressView()
-                .controlSize(.large)
-        }
+    VStack {
+        compareProgressViews
+            .frame(width: 500.0, height: 500.0)
+        secondView
+            .frame(width: 500.0, height: 100.0)
     }
-}
-
+    //provide a width and hight of your choice
+)
 //: [Next](@next)

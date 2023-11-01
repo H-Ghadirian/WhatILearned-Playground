@@ -9,7 +9,7 @@
         <page name='Default Value in Dictionary'/>
         <page name='ProgressView'/>
         <page name='JSONSerialization'/>
-        <page name='Post request'/>
+        <page name='Get Post request'/>
         <page name='String+isRTL'/>
         <page name='ConvertStringInt'/>
         <page name='IsThereParameterLimit for enums'/>

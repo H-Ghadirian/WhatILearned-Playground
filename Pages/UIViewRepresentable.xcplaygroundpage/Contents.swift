@@ -25,7 +25,7 @@ struct TextView: UIViewRepresentable {
 }
 
 struct ContentView: View {
-    @State var text = NSMutableAttributedString(string: "")
+    @State var text = NSMutableAttributedString(string: "Hallo")
 
     var body: some View {
         VStack {

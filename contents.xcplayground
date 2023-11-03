@@ -9,7 +9,6 @@
         <page name='Default Value in Dictionary'/>
         <page name='Creating View'/>
         <page name='JSONSerialization'/>
-        <page name='Get Post request'/>
         <page name='String Manipulation'/>
         <page name='IsThereParameterLimit for enums'/>
         <page name='Property Wrappers'/>

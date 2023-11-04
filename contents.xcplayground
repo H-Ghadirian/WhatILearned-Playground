@@ -36,5 +36,6 @@
         <page name='ArrayIterator'/>
         <page name='Api Request'/>
         <page name='Map'/>
+        <page name='UIViewController'/>
     </pages>
 </playground>

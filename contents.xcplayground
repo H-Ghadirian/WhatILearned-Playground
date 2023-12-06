@@ -37,5 +37,6 @@
         <page name='Api Request'/>
         <page name='Map'/>
         <page name='UIViewController'/>
+        <page name='AES (Advanced Encryption Standard)'/>
     </pages>
 </playground>

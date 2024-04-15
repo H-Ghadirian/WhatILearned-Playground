@@ -38,5 +38,9 @@
         <page name='Map'/>
         <page name='UIViewController'/>
         <page name='AES (Advanced Encryption Standard)'/>
+        <page name='grouping strings'/>
+        <page name='DispatchQueue'/>
+        <page name='Tupples'/>
+        <page name='consume'/>
     </pages>
 </playground>

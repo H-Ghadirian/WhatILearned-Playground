@@ -3,7 +3,6 @@
     <pages>
         <page name='Introduction'/>
         <page name='Animation and Playground Preview'/>
-        <page name='DateFormatter+iso8601Full'/>
         <page name='Pf001 - functions - operator'/>
         <page name='Pf002 - functions - side effects'/>
         <page name='Default Value in Dictionary'/>
@@ -42,5 +41,7 @@
         <page name='DispatchQueue'/>
         <page name='Tupples'/>
         <page name='consume'/>
+        <page name='Date'/>
+        <page name='Subscribe'/>
     </pages>
 </playground>

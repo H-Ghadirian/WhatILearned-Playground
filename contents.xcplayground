@@ -43,5 +43,6 @@
         <page name='consume'/>
         <page name='Date'/>
         <page name='Subscribe'/>
+        <page name='Concurrency'/>
     </pages>
 </playground>

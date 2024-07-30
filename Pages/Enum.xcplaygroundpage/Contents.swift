@@ -2,17 +2,15 @@
 
 import Foundation
 
-enum Tag: String, CaseIterable {
-    case animation
-    case swiftui
-    case userInterface
-    case networking
-    case storage
-    case functionality
-    case architecture
-    case library
-}
-
 var tags: [String] = Tag.allCases.map { $0.rawValue }
 print(tags)
 //: [Next](@next)
+
+let basket = Basket(rawValue: "something not there")
+switch basket {
+case .productNotFound, .unknown:
+    print("matched")
+default:
+    print("not matched")
+}
+print(Basket.productNotFound())

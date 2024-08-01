@@ -11,6 +11,7 @@ public func incrementDate() {
     print(myDate)
 }
 
+@available(*, deprecated, message: "Dude! find a better way!")
 public func decrementDate() {
     var myDate = Date()
     print(myDate)

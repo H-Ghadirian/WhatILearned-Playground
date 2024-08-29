@@ -44,6 +44,7 @@
         <page name='Date'/>
         <page name='Subscribe'/>
         <page name='Concurrency'/>
+        <page name='Interesting'/>
         <page name='Enum'/>
     </pages>
 </playground>
